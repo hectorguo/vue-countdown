@@ -1,8 +1,8 @@
 {
-  "name": "vue-countdown",
+  "name": "vue-countdown-2",
   "version": "1.0.0",
   "description": "A countdown component for Vue 2.0+",
-  "main": "VueCountdown.vue",
+  "main": "VueCountdown2.vue",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
