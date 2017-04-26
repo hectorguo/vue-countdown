@@ -2,10 +2,28 @@
 
 [Demo here](https://hectorguo.com/vue-countdown/)
 
+## Install
+
+```bash
+npm install --save vue-countdown-2
+```
+
 ## Usage
 
 ```html
-<vue-countdown deadline="2018/05/29"></vue-countdown>
+<template>
+    <vue-countdown deadline="2018/05/29"></vue-countdown>
+</template>
+
+<script>
+import VueCountdown2 from 'vue-countdown-2';
+
+export default {
+  components: {
+    VueCountdown2
+  }
+}
+</script>
 
 <!-- Output -->
 <time>1年 1月 3天 5小时 28分 24秒</time>

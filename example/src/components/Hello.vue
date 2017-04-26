@@ -1,27 +1,27 @@
 <template>
   <div class="hello">
   <p>
-    <pre><code>&lt;vue-countdown deadline=&quot;2018/05/29&quot;&gt;&lt;/vue-countdown&gt;</code></pre>
+    <pre><code>&lt;vue-countdown-2 deadline=&quot;2018/05/29&quot;&gt;&lt;/vue-countdown-2&gt;</code></pre>
     <strong>剩余：</strong>
-    <vue-countdown deadline="2018/05/29"></vue-countdown>
+    <vue-countdown-2 deadline="2018/05/29"></vue-countdown-2>
   </p><p>
-    <pre><code>&lt;vue-countdown deadline=&quot;2018/05/29&quot; format=&quot;%h hours %m minutes %s seconds&quot;&gt;</code></pre>
+    <pre><code>&lt;vue-countdown-2 deadline=&quot;2018/05/29&quot; format=&quot;%h hours %m minutes %s seconds&quot;&gt;</code></pre>
     <strong>Time Left:</strong>
-    <vue-countdown deadline="2018/05/29" format="%h hours %m minutes %s seconds"></vue-countdown>
+    <vue-countdown-2 deadline="2018/05/29" format="%h hours %m minutes %s seconds"></vue-countdown-2>
   </p><p>
-    <pre><code>&lt;vue-countdown deadline=&quot;2018/05/29&quot; max=&quot;3&quot;&gt;&lt;/vue-countdown&gt;</code></pre>
+    <pre><code>&lt;vue-countdown-2 deadline=&quot;2018/05/29&quot; max=&quot;3&quot;&gt;&lt;/vue-countdown-2&gt;</code></pre>
     <strong>剩余：</strong>
-    <vue-countdown deadline="2018/05/29" max="3"></vue-countdown>
+    <vue-countdown-2 deadline="2018/05/29" max="3"></vue-countdown-2>
   </p>
   </div>
 </template>
 
 <script>
-import VueCountdown from './VueCountdown';
+import VueCountdown2 from 'vue-countdown-2';
 
 export default {
   components: {
-    VueCountdown
+    VueCountdown2
   },
   name: 'hello',
   data () {
