@@ -12,7 +12,7 @@ npm install --save vue-countdown-2
 
 ```html
 <template>
-    <vue-countdown deadline="2018/05/29"></vue-countdown>
+    <vue-countdown-2 deadline="2018/05/29"></vue-countdown-2>
 </template>
 
 <script>
@@ -32,7 +32,7 @@ export default {
 ### Custom Format
 
 ```html
-<vue-countdown deadline="2018/05/29" format="%h hours %m minutes %s seconds">
+<vue-countdown-2 deadline="2018/05/29" format="%h hours %m minutes %s seconds"></vue-countdown-2>
 
 <!-- Output -->
 <time>82928 hours 27 minutes 46 seconds</time>
